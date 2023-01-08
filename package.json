@@ -1,7 +1,7 @@
 {
-  "name": "weatherforecast",
+  "name": "React Template",
   "version": "1.0.0",
-  "description": "WeatherForecast Assessment",
+  "description": "React Template",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
