@@ -1,22 +1,5 @@
 import React from 'react';
 
-/* import LogRocket from 'logrocket';
-LogRocket.init('x8jl1q/test-project'); */
-
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {  
-  faSun, faCloud, faCloudMoon, faCloudMoonRain, faCloudRain, faCloudShowersHeavy, faCloudShowersWater, faCloudSun, faCloudSunRain, faCloudBolt, faSnowflake,faSmog
-
-} from '@fortawesome/free-solid-svg-icons'
-
-library.add(
-  faSun, faCloud, faCloudMoon, faCloudMoonRain, faCloudRain, faCloudShowersHeavy, faCloudShowersWater, faCloudSun, faCloudSunRain,faCloudBolt, faSnowflake, faSmog
-)
-
-import './styles/style.less';
-
-import Weather from './WeatherWrapper';
-
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -43,7 +26,7 @@ class ErrorBoundary extends React.Component {
   }
 }
 const App = () => {
-    return <ErrorBoundary><Weather /></ErrorBoundary>;
+  return <ErrorBoundary>I Render App</ErrorBoundary>;
 };
 
 export default App;
